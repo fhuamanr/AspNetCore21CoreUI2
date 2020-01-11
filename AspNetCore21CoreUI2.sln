@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29613.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9FDBF948-4CA5-4970-9EB0-9AA3CB8DE923}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{12EFD18E-A7B3-4E34-AFBD-A458C61FA17A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoreUI.Mvc", "src\CoreUI.Mvc\CoreUI.Mvc.csproj", "{5D0674C5-EFCF-4F03-A433-620DAD77DEDE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5D0674C5-EFCF-4F03-A433-620DAD77DEDE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D0674C5-EFCF-4F03-A433-620DAD77DEDE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D0674C5-EFCF-4F03-A433-620DAD77DEDE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D0674C5-EFCF-4F03-A433-620DAD77DEDE}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5D0674C5-EFCF-4F03-A433-620DAD77DEDE} = {12EFD18E-A7B3-4E34-AFBD-A458C61FA17A}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {06738918-8C5D-4A6A-A4FB-30FD04BF3B52}
+	EndGlobalSection
+EndGlobal
